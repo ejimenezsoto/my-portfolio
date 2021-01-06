@@ -35,6 +35,7 @@ export default function Post() {
                                 <span className="block relative h-full flex justify-end items-end pr-4 pb-4">
                                     <h3 className=" text-gray-800 text-lg font-blog px-3 py-4 bg-red-700 text-red-100 bg-opacity-75"> {post.title}</h3>
                                 </span>
+                                
                             </span>
                         </Link>
                     </article>
@@ -44,3 +45,5 @@ export default function Post() {
         </main>
     )
 }
+
+// Main portfolio
