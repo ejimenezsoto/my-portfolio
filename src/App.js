@@ -5,10 +5,18 @@ import SinglePost from "./components/SinglePost";
 import Post from "./components/Post";
 import Project from "./components/Project";
 import NavBar from "./components/NavBar";
+import { Helmet } from 'react-helmet'
+
+
+const TITLE = "Enzo's Portfolio Website"
 
 function App() {
   return (
+    
     <BrowserRouter>
+    <Helmet>
+          <title>{ TITLE }</title>
+    </Helmet>
     <NavBar />
     <Switch>
       <Route component={Home} path='/' exact />
