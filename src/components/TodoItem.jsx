@@ -1,8 +1,8 @@
-import React, { useState } from 'react'
+import React from 'react'
 
 const TodoItem = ({todo, idx, updateTodo, deleteTodo}) => {
 
-    const [style, setStyle] = useState({});
+
 
     const checked = {
         'text-decoration': 'line-through'
