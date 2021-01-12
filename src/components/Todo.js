@@ -2,7 +2,6 @@
 import React, {useState} from 'react' 
 import NewTodo from "./NewTodo"
 import TodosList from "./TodosList"
-import image from "../notepad.jpg"
 import "./Todo.css"
 
 function Todo() {

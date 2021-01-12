@@ -20,9 +20,7 @@ const submitTodo = (e) => {
     setTodoText("");
     }
 }
-const todoError = (e) => {
-    
-}
+
 
     return (
         <div>
