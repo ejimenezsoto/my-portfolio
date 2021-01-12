@@ -1,0 +1,27 @@
+
+
+.App {
+    text-align: center;
+}
+
+.title{
+    font-size: 3em;
+}
+
+.title-div{
+    margin-bottom: 10px;
+}
+.todo-input-div{
+    margin-bottom: 15px;
+}
+.todo-list-div{
+    text-align: right;
+    margin-right: 360px;
+}
+
+.body{
+    background-image: url(../notepad.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}

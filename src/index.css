@@ -14,9 +14,13 @@
 }
 
 .home-name{
-  font-size: 150px;
+  font-size: 100px;
 }
 
 .header-color{
   background-color: #7395AE;
+}
+
+.todo-list-item{
+  margin-bottom: 20px;
 }

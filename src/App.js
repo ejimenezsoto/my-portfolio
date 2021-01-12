@@ -6,6 +6,7 @@ import Post from "./components/Post";
 import Project from "./components/Project";
 import NavBar from "./components/NavBar";
 import { Helmet } from 'react-helmet'
+import Todo from "./components/Todo"
 
 
 const TITLE = "Enzo's Portfolio Website"
@@ -24,6 +25,7 @@ function App() {
       <Route component={SinglePost} path='/post/:slug' />
       <Route component={Post} path='/post' />
       <Route component={Project} path='/project' />
+      <Route component={Todo} path='/todolist' />
     </Switch>
     </BrowserRouter>
   )
