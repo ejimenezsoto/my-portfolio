@@ -7,8 +7,6 @@ import Project from "./components/Project";
 import NavBar from "./components/NavBar";
 
 
-const TITLE = "Enzo's Portfolio Website"
-
 function App() {
   return (
     
